@@ -1,6 +1,6 @@
 # From Approval to Publication: Job Posting Governance in Ontario — LinkedIn launch kit
 
-Publishing note: these URLs are planned destinations, not verified live sites. Publish the matching repository first, open its Pages URL, then copy only the post below. Do not present the browser replicas as native vendor execution.
+Publishing note: GitHub and the live dashboard are published. The study is listed in LinkedIn Projects and Featured. Feed copy below is a draft; check the publication record before scheduling or posting.
 
 ## Separate post
 
@@ -30,7 +30,7 @@ Explore the workflow: https://msjudge.github.io/canadian-hr-controls/
 
 **Skills:** HR governance · Talent acquisition operations · Python · Control testing · Evidence lineage
 
-**Planned URL:** https://msjudge.github.io/canadian-hr-controls/
+**Live URL:** https://msjudge.github.io/canadian-hr-controls/
 
 ## Screenshot sequence and captions
 
