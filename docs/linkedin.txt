@@ -1,0 +1,23 @@
+From Approval to Publication: Job Posting Governance in Ontario
+
+Publishing note: these URLs are planned destinations, not verified live sites. Publish the matching repository first, open its Pages URL, then copy only the post below. Do not present the browser replicas as native vendor execution.
+
+The approved job-posting template is not always the version a candidate sees.
+
+I used that gap as the starting point for an independent HR governance prototype grounded in selected Ontario posting requirements effective in 2026.
+
+The Python workflow evaluates structured posting facts, preserves uncertainty for human review and compares findings across versions. A Tableau-style dashboard makes the review queue visible; a code workspace explains the control logic.
+
+The synthetic test set contains nine versions across eight posting IDs. It produces three flagged versions, two requiring review, two with no implemented flags and two outside the modeled scope. In the central example, JOB-001 v2 introduces AI-disclosure and posting-archive findings after an unflagged v1.
+
+The design choice that matters is evidence lineage: posting ID, version, rule version and a digest of the reviewed facts. The digest supports traceability; it does not replace retention of the actual posting.
+
+These are deliberately constructed fixtures, not a survey of Canadian employers or a compliance certification. Python was executed and checked. The Tableau/editor-style views are browser replicas, and real deployment would require HR/legal validation of scope and rules.
+
+Explore the workflow: https://msjudge.github.io/canadian-hr-controls/
+
+#HRGovernance #TalentAcquisition #HRIS #PeopleAnalytics
+
+
+Manvir Singh Judge | HR Operations · HRIS · People Analytics
+Independent research developed with AI assistance.

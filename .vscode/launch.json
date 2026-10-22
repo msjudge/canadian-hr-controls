@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Inspect posting controls",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/analysis/controls.py",
+      "args": [
+        "${workspaceFolder}/analysis/postings.json"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "posting_versions": 9,
+  "flagged_versions": 3,
+  "review_required_versions": 2,
+  "version_regressions": [
+    {
+      "rule": "AI",
+      "status": "flag",
+      "evidence": "AI is used in selection but the posting disclosure is absent."
+    },
+    {
+      "rule": "ARCHIVE_POSTING",
+      "status": "flag",
+      "evidence": "Public posting version is absent from evidence archive."
+    }
+  ],
+  "pre2026_posting_interview_example": {
+    "status": "overdue",
+    "due_on": "2026-09-15"
+  }
+}

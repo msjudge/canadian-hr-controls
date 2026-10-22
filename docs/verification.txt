@@ -1,0 +1,4 @@
+Executed 21 October 2026
+PASS: all 9 version findings reproduced exactly; 3 flagged / 2 review required; two expected v1-to-v2 regressions; malformed date routes to review.
+
+Browser check: overview and technical pages inspected; filter changes verified. The shared dashboard rendering harness passed 123 state checks across the three projects.

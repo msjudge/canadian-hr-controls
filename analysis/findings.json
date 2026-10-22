@@ -1,0 +1,129 @@
+[
+  {
+    "posting_id": "JOB-001",
+    "version": 1,
+    "rule_version": "ON-2026.1-research",
+    "sha256": "7ecb4a1324de9a47027bbfa5485442514ed9f07bf37ea73d70a6a80643d59b0d",
+    "findings": [
+      {
+        "rule": "CHECKED_RULES",
+        "status": "no_flag",
+        "evidence": "No findings in implemented checks; this is not a compliance certificate."
+      }
+    ]
+  },
+  {
+    "posting_id": "JOB-001",
+    "version": 2,
+    "rule_version": "ON-2026.1-research",
+    "sha256": "d5128230ecfc083d5668b4b7a8c10ae387dee78772371e4b2557e7f06510eaac",
+    "findings": [
+      {
+        "rule": "AI",
+        "status": "flag",
+        "evidence": "AI is used in selection but the posting disclosure is absent."
+      },
+      {
+        "rule": "ARCHIVE_POSTING",
+        "status": "flag",
+        "evidence": "Public posting version is absent from evidence archive."
+      }
+    ]
+  },
+  {
+    "posting_id": "JOB-002",
+    "version": 1,
+    "rule_version": "ON-2026.1-research",
+    "sha256": "f2d0044818edd3cb9ab0c78fad9f053bc6b311f775ae17c80d5bfb4d34771426",
+    "findings": [
+      {
+        "rule": "PAY_RANGE",
+        "status": "flag",
+        "evidence": "Expected range exceeds CAD 50,000."
+      }
+    ]
+  },
+  {
+    "posting_id": "JOB-003",
+    "version": 1,
+    "rule_version": "ON-2026.1-research",
+    "sha256": "8d550c5dd17f264711a7980d43f49e7597942776326311c1dc382c72c53783a0",
+    "findings": [
+      {
+        "rule": "PAY",
+        "status": "exempt",
+        "evidence": "Expected annual salary range ends above CAD 200,000."
+      },
+      {
+        "rule": "CHECKED_RULES",
+        "status": "no_flag",
+        "evidence": "No findings in implemented checks; this is not a compliance certificate."
+      }
+    ]
+  },
+  {
+    "posting_id": "JOB-004",
+    "version": 1,
+    "rule_version": "ON-2026.1-research",
+    "sha256": "c9cde136c9df185adf4ca4477f8bad27d69c0569fc5039a81b0903593bdb9b2f",
+    "findings": [
+      {
+        "rule": "SCOPE",
+        "status": "outside_scope",
+        "evidence": "Check employer coverage, Ontario count and position scope."
+      }
+    ]
+  },
+  {
+    "posting_id": "JOB-005",
+    "version": 1,
+    "rule_version": "ON-2026.1-research",
+    "sha256": "5ff7fd1f4537a6171decf876471a68ad698dfb1b9b8d19c96075559635ec5d0c",
+    "findings": [
+      {
+        "rule": "SCOPE",
+        "status": "review_required",
+        "evidence": "Check employer coverage, Ontario count and position scope."
+      }
+    ]
+  },
+  {
+    "posting_id": "JOB-006",
+    "version": 1,
+    "rule_version": "ON-2026.1-research",
+    "sha256": "3c671cc7cb1afe7574176e0901ac3d12ae2c606fe891547a4bd4fd2996d417fa",
+    "findings": [
+      {
+        "rule": "CANADIAN_EXPERIENCE",
+        "status": "flag",
+        "evidence": "Reviewed posting/application requires Canadian experience."
+      }
+    ]
+  },
+  {
+    "posting_id": "JOB-007",
+    "version": 1,
+    "rule_version": "ON-2026.1-research",
+    "sha256": "6861065f6cf7dd5efb1920e9e214112e9b78554b0f9b4d73adfa5b5b01561d72",
+    "findings": [
+      {
+        "rule": "PAY",
+        "status": "review_required",
+        "evidence": "Commission, hourly annualization or unknown compensation requires review."
+      }
+    ]
+  },
+  {
+    "posting_id": "JOB-008",
+    "version": 1,
+    "rule_version": "ON-2026.1-research",
+    "sha256": "59bf7a6612e331ffb91e80d40d7f9d438f271d7c4d54c6388fc9b6c95c569984",
+    "findings": [
+      {
+        "rule": "POST_DATE",
+        "status": "outside_scope",
+        "evidence": "Posting content predates 2026; interview notification is evaluated separately."
+      }
+    ]
+  }
+]
